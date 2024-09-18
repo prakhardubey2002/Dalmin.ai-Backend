@@ -106,6 +106,10 @@ app.post('/scrape', checkLicense, async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello Prakhar!, Welcome to GMB Scraper API.');
+})
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
