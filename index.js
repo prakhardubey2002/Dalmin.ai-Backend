@@ -107,7 +107,7 @@ app.post('/scrape', checkLicense, async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello Prakhar!, Welcome to GMB Scraper API.');
 })
 
 app.listen(PORT, () => {
